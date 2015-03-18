@@ -1,17 +1,23 @@
 body {
-	background-color: black;
+	background-color: #F0F0F0;
 }
 
 header {
+	background-color: black;
 	font-family: "futura-pt";
 	font-size: 14px;
 	font-style: normal;
 	font-weight: 500;
-	letter-spacing: 3px;
+	letter-spacing: 6px;
 	line-height: 2em;
 	text-transform: uppercase;
 	text-decoration: none;
 	list-style: none;
+}
+
+header a:hover {
+	color: red;
+	text-decoration: none;
 }
 
 ul {
@@ -23,10 +29,43 @@ li {
 }
 
 .main-nav {
-	display:inline;
+	width: 100%;
 	text-align: right;
+	padding-top: 4.9em;
+	padding-right: 5em;
+	height: 100%;
 }
 .main-nav-links {
 	color: #fff;
+	padding-right: 2em;
 }
+
+.main-logo-image {
+	margin: auto;
+	display: block;
+}
+
+
+/* -----------------------RESPONSIVE DESIGN CHOICES -------------- /*
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+
+}
+
 
