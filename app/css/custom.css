@@ -1,5 +1,6 @@
 body {
 	background-color: #F0F0F0;
+	padding-top: 130px;
 }
 
 header {
@@ -35,6 +36,7 @@ li {
 	padding-right: 5em;
 	height: 100%;
 }
+
 .main-nav-links {
 	color: #fff;
 	padding-right: 2em;
@@ -43,6 +45,19 @@ li {
 .main-logo-image {
 	margin: auto;
 	display: block;
+}
+
+.main-image {
+	background: 100%;
+	width: 100%;
+	padding-top: 4em;
+	margin: auto;
+}
+
+.main-text {
+	padding-top: 30%;
+	padding-left: 1em;
+	text-align: right;
 }
 
 
@@ -55,17 +70,49 @@ li {
  
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {
-
+	.main-text {
+	padding-top: 1%;
+	padding-left: 1em;
+	text-align: center
+	}
 }
  
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
+	.main-logo-image {
+		height:100px;
+		display: hidden;
+	}
 
+	.main-nav {
+		padding:0;
+		text-align: center;
+	}
+
+	.main-text {
+	padding-top: 1%;
+	padding-left: 1em;
+	text-align: center
+	}
 }
  
 /* Landscape phones and down */
 @media (max-width: 480px) {
+	.main-logo-image {
+		height:100px;
+		display: hidden;
+	}
 
+	.main-nav {
+		padding:0;
+		text-align: center;
+	}
+
+	.main-text {
+	padding-top: 1%;
+	padding-left: 1em;
+	text-align: center
+	}
 }
 
 
