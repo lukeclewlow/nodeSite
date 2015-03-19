@@ -55,7 +55,7 @@ li {
 }
 
 .main-text {
-	padding-top: 30%;
+	padding-top: 40%;
 	padding-left: 1em;
 	text-align: right;
 }
@@ -84,10 +84,10 @@ li {
 .info {
 	color: black;
 }
-/*.top-of-body {
-	margin-top: 20vh;
-}*/
 
+.only-for-small-screen {
+	display: none;
+}
 
 /* -----------------------RESPONSIVE DESIGN CHOICES -------------- /*
 
@@ -181,6 +181,10 @@ li {
 		padding-top: 0em;
 	}
 
+	.first-image {
+		padding-top: 10em;
+	}
+
 	.top-section {
 		min-height:0;
 	}
@@ -199,6 +203,15 @@ li {
 		color: black;
 		top: 500px;
 	}
+
+	.only-for-big-screen {
+		display: none;
+	}
+
+	.only-for-small-screen {
+		display: initial;
+	}
+
 }
 
 
