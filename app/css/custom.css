@@ -73,16 +73,22 @@ li {
 }
 
 .top-section {
+	min-height: 100vh;
 	background-image: url(/img/cocktail.jpg);
 	background-size: 100%;
+	background-repeat: no-repeat;
 	color: white;
-	min-height: 100vh;
 }
 
 .top-info {
 	width: 25%;
 	margin-left: 13%;
-	padding-top: 15%;
+	padding-top: 10%;
+	padding: 2em;
+}
+
+.info {
+	color: black;
 }
 /*.top-of-body {
 	margin-top: 20vh;
@@ -99,9 +105,18 @@ li {
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {
 	.main-text {
-	padding-top: 1%;
+	padding-top: 30%;
 	padding-left: 1em;
 	text-align: center
+	}
+
+	.main-nav {
+		padding-top: .5em;
+	}
+
+	.top-info {
+		width: 35%;
+		margin-top: 3em;
 	}
 }
  
@@ -118,9 +133,20 @@ li {
 	}
 
 	.main-text {
-	padding-top: 1%;
-	padding-left: 1em;
-	text-align: center
+		padding-top: 1%;
+		padding-left: 1em;
+		text-align: center
+	}
+
+	.top-info {
+		width: 100%;
+		margin-left: 0%;
+		padding-top: 20%;
+	}
+
+		.info {
+		margin-top: 20vh;
+		color: black;
 	}
 }
  
@@ -137,9 +163,21 @@ li {
 	}
 
 	.main-text {
-	padding-top: 1%;
-	padding-left: 1em;
-	text-align: center
+		padding-top: 1%;
+		padding-left: 1em;
+		text-align: center
+	}
+
+	.top-info {
+		width: 100%;
+		margin-left: 0;
+		padding-top: 20%;
+		padding: 2em;
+  }
+
+	.info {
+		margin-top: 20vh;
+		color: black;
 	}
 }
 
