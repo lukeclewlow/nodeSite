@@ -60,20 +60,11 @@ li {
 	text-align: right;
 }
 
-.background-image {
-	/*position: absolute;*/
-	top: 10px;
-	width: 100%;
-	height: 100vh;
-	margin: 0;
-}
-
 .no-padding {
 	padding: 0;
 }
 
 .top-section {
-	overflow: scroll;
 	min-height: 100vh;
 	margin-top: 1em;
 	background-image: url(/img/cocktail.jpg);
