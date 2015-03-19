@@ -186,11 +186,7 @@ li {
 	.main-image {
 		padding-top: 0em;
 	}
-
-	.first-image {
-		padding-top: 10em;
-	}
-
+	
 	.top-section {
 		min-height:0;
 	}
@@ -216,6 +212,14 @@ li {
 
 	.only-for-small-screen {
 		display: initial;
+	}
+
+	.navbar-fixed-top{
+		position: relative;
+	}
+
+	body {
+		padding: 0;
 	}
 
 }
