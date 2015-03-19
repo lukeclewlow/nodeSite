@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 var http = require('http');
 var server = http.createServer(app);
-var port = 9999;
+var port = process.env.PORT || 9999;
 
 app.set('view engine', 'ejs');
 app.set(express.static(__dirname + '/app'));
