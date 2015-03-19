@@ -108,18 +108,32 @@ li {
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {
 	.main-text {
-	padding-top: 30%;
+	padding-top: 0%;
 	padding-left: 1em;
 	text-align: center
+	}
+
+	.main-image {
+		padding-top: 0em;
 	}
 
 	.main-nav {
 		padding-top: .5em;
 	}
 
+	.top-section {
+		min-height: 0;
+	}
+
 	.top-info {
 		width: 35%;
 		margin-top: 3em;
+	}
+
+	.info {
+		margin-top: 2vh;
+		color: black;
+		padding-top: .5em;
 	}
 }
  
@@ -145,10 +159,11 @@ li {
 		width: 100%;
 		margin-left: 0%;
 		padding-top: 20%;
+		padding-bottom: 0;
 	}
 
 		.info {
-		margin-top: 20vh;
+		margin-top: 2vh;
 		color: black;
 	}
 }
@@ -171,16 +186,25 @@ li {
 		text-align: center
 	}
 
+	.main-image {
+		padding-top: 0em;
+	}
+
+	.top-section {
+		min-height:0;
+	}
+
 	.top-info {
 		width: 100%;
 		margin-left: 0;
 		padding-top: 20%;
 		padding: 2em;
 		margin-top: 1em;
+		padding-bottom: 0;
   }
 
 	.info {
-		margin-top: 20vh;
+		margin-top: 2vh;
 		color: black;
 		top: 500px;
 	}
