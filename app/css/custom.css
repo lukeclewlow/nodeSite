@@ -73,7 +73,9 @@ li {
 }
 
 .top-section {
+	overflow: scroll;
 	min-height: 100vh;
+	margin-top: 1em;
 	background-image: url(/img/cocktail.jpg);
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -81,6 +83,7 @@ li {
 }
 
 .top-info {
+	overflow: scroll;
 	width: 25%;
 	margin-left: 13%;
 	padding-top: 10%;
@@ -173,11 +176,13 @@ li {
 		margin-left: 0;
 		padding-top: 20%;
 		padding: 2em;
+		margin-top: 1em;
   }
 
 	.info {
 		margin-top: 20vh;
 		color: black;
+		top: 500px;
 	}
 }
 
