@@ -15,6 +15,10 @@ app.get('/', function(request, response){
 	response.render('index', request.query);
 });
 
+app.get('/events', function(request, response){
+	response.render('events', request.query);
+});
+
 server.listen(port, function(){
 	console.log('running server on port ' + port);
 });
