@@ -54,10 +54,10 @@ li {
 }
 
 .main-image {
-	background: 100%;
+	/*background: 100%;*/
 	width: 100%;
 	padding-top: 4em;
-	margin: auto;
+	/*margin: auto;*/
 }
 
 .main-text {
